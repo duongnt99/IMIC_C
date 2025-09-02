@@ -17,6 +17,7 @@ int main ()
         switch (state) {
         case 0:
         PortD = 1; // bật đèn Đỏ
+        printf("Den do dung lai! \n");
         printB(PortD);
         Sleep(5000);
         state = 1;
@@ -24,6 +25,7 @@ int main ()
         
         case 1:
         PortD = (1<<2); // bật đèn Xanh
+        printf("Den xanh di! \n");
         printB(PortD);
         Sleep(5000);
         state = 2;
@@ -31,6 +33,7 @@ int main ()
         
         case 2:
         PortD = (1<<1); // bật đèn Vàng
+        printf("Den vang cham lai! \n");
         printB(PortD);
         Sleep(2000);
         state = 0;
