@@ -7,14 +7,14 @@ int main(){
     printf("nhap so nguyen khong am:");
     scanf("%d",&n);
     if(n <0){
-        printf("khong phai so duong");
+        printf("khong phai so nguyen khong am");
         return 0;
     }
     else if(n > 0){
         for(int a = 1;a <= n;a++){
             giaithua *= a;
-            printf("so giai thua cua %d la: %d",n,giaithua);
         }
+        printf("so giai thua cua %llu la: %llu",n,giaithua);
     }
     else{
         printf("0! = 1");

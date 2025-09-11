@@ -2,29 +2,36 @@
 
 int main()
 {
-    int opt, balance = 1000000;
-    int withdraw, deposit;
-    while (1)
-    {
+    int opt;
+    float balance = 1000000;
+    float withdraw, deposit;
+    do {
     printf(" 1. Kiem tra so du \n 2. Rut tien \n 3. Nap tien \n 4. Thoat \n");
     printf("Vui long chon so: ");
     scanf("%d", &opt);
     switch (opt)
     {
     case 1:
-        printf("So du hien tai: %d \n", balance);
+        printf("So du hien tai: %.2f VND\n", balance);
         break;
     case 2:
         printf("Nhap so tien can rut: ");
-        scanf("%d", &withdraw);
-        printf("Rut thanh cong! So du moi la: %d\n", balance -= withdraw);
+        scanf("%f", &withdraw);
+        if(withdraw>balance) {
+            printf("Khong du so du de rut!\n");
+        } else if ((int)withdraw%10000!=0) 
+        {printf("So tien rut phai la boi so cua 10000VND \n");}
+        else {printf("Rut thanh cong! So du moi la: %.2f VND\n", balance -= withdraw);}
         break;
     case 3:
         printf("Nhap so tien can nap: ");
-        scanf("%d", &deposit);
-        printf("Nap thanh cong! So du moi la: %d\n", balance += deposit);
+        scanf("%f", &deposit);
+        printf("Nap thanh cong! So du moi la: %.2f VND\n", balance += deposit);
         break;
     case 4:
-        return 0;
-    }}
+        printf("Cam on quy khach!");   
+        break;
+    }
+    } while (opt!=4);
+    return 0;
 }
