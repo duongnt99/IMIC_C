@@ -1,3 +1,6 @@
+// Bài tập 4: Chuỗi Fibonacci không dùng đệ quy
+// •	Đề bài: In ra N số đầu tiên của chuỗi Fibonacci (0, 1, 1, 2, 3, 5, 8, 13, 21, 35...) mà không sử dụng kỹ thuật đệ quy.
+
 #include <stdio.h>
 
 int main() {
