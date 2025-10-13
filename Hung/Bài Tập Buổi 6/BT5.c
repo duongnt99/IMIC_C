@@ -26,7 +26,6 @@ int main() {
     if (n > 1) {
         printf("%d", n);
     }
-
     printf("\n");
     return 0;
 }

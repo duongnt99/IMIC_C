@@ -8,7 +8,7 @@
 
 int unreliable_task() {
     int r = rand() % 100;  // cho số ngẫu nhiên từ 0-99
-    if (r < 70) {
+    if (r < 50) {
         return -1; // thất bại
     }
     return 0; // thành công
