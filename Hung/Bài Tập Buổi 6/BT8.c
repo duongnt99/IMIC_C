@@ -22,7 +22,6 @@ int main() {
             printf("Thap phan: %d  |  Nhi phan: ", PORTC);
             nhiphan(PORTC);
             printf("\n");
-
             sleep(1); 
         }
     }
