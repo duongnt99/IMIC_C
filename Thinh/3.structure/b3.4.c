@@ -1,3 +1,7 @@
+// Bài tập 4: Tính N giai thừa
+// •	Đề bài: Viết chương trình nhập vào một số nguyên không âm N và tính N! (N giai thừa). 
+//     Biết rằng N!=1×2×...×N, và 0!=1
+
 #include<stdio.h>
 
 int main()

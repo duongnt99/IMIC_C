@@ -1,3 +1,7 @@
+// Bài tập 3: Máy tính đơn giản
+// •	Đề bài: Viết chương trình nhập vào hai số thực và một toán tử (+, -, *, /). 
+//     Sử dụng switch-case để thực hiện phép tính tương ứng và in ra kết quả.
+
 #include <stdio.h>
 
 int main() {

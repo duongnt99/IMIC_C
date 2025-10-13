@@ -1,3 +1,6 @@
+// Bài tập 2: Vẽ tam giác sao cân rỗng ruột
+// •	Đề bài: Viết chương trình nhập vào chiều cao h và vẽ ra một tam giác cân rỗng ruột bằng các dấu *.
+
 #include <stdio.h>
 
 int main() {

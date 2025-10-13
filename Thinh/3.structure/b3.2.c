@@ -1,3 +1,7 @@
+// Bài tập 2: Xếp loại học lực
+// •	Đề bài: Viết chương trình nhập điểm trung bình của một học sinh (thang điểm 10). 
+//     Sử dụng chuỗi if-else if-else để xếp loại: >= 9.0: Xuất sắc, >= 8.0: Giỏi, >= 6.5: Khá, >= 5.0: Trung bình, còn lại: Yếu.
+
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,7 @@
+// Bài tập 1: Phân loại số
+// •	Đề bài: Viết chương trình nhập vào một số nguyên. 
+//     Sử dụng if-else lồng nhau để xác định và in ra màn hình xem số đó là "Số dương chẵn", "Số dương lẻ", "Số âm", hay "Số không".
+
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,6 @@
+// Bài tập 1: Vẽ tam giác sao cân đặc ruột
+// •	Đề bài: Viết chương trình nhập vào chiều cao h và vẽ ra một tam giác cân đặc ruột bằng các dấu *.
+
 #include <stdio.h>
 
 int main() {
